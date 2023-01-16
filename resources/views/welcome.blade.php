@@ -41,29 +41,7 @@
                     </svg>
                 </div>
 
-                <x-form.card>
-                    <x-slot:title>
-                        Inscription
-                    </x-slot>
-                    <x-slot:body>
-                        <div>
-                            <x-form.input type="text" placeholder="Nom">
-                                <x-slot:label>Votre nom</x-slot>
-                            </x-form.input>
-
-                            <x-form.input id="name" type="text" placeholder="Prénom">
-                                <x-slot:label for="name">Votre prénom</x-slot>
-                            </x-form.input>
-                        </div>
-                    </x-slot>
-
-                    <x-slot:footer>
-                        <x-form.success-button>
-                            Valider
-                        </x-form.success-button>
-                    </x-slot>
-
-                </x-form.card>
+                <x-admin.table/>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
